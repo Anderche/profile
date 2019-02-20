@@ -1,0 +1,79 @@
+h1, h2, h3 {
+  font-weight: bold;
+  color: #ff6a00;
+  font-family: 'Permanent Marker', cursive;
+  line-height: 1.3;
+}
+
+#profile {
+	width: 350px;
+}
+
+#movies {
+	width: 400px;
+}
+
+body {
+	font-family: 'Gothic A1', sans-serif;
+	background-color: #E0E2DB;
+	color: #595959; 
+    font-size:100%;
+	line-height: 1.1;
+}
+
+a {
+  color: none;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #4248f4;
+}
+
+.container {
+  background-color: white;
+  width: 800px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+  padding: 5px 5px;
+}
+
+.card {
+  margin: 50px auto;
+  padding: 10px;
+  background: #fff9e6;
+  border: 0.5px;
+  border-radius: 0.3;
+  box-shadow:1px 1px 3px rgba(0, 0, 0, 0.1);
+  width: 650px;
+}
+
+#list-inline {
+  list-style: none;
+  display: inline;
+  padding-right: 23px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+
+
+
+
